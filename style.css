@@ -1,0 +1,267 @@
+.cloud{
+    width: 100vw;
+    height: 40vh;
+}
+.building{
+    width: 100vw;
+    position: absolute;
+}
+.walk-way{
+    background-color: green;
+    height: 50px;
+    width: 100vw;
+    margin: auto;
+    position: absolute;
+    border: 1px solid green;
+}
+.plane{
+    position: relative;
+    bottom: 10vh;
+    right: -100vw;
+    animation: plane 3s linear infinite backwards;
+}
+@keyframes plane {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-120vw, -40vh);
+    }
+}
+
+.helicopter{
+    position: relative;
+    bottom: 42vh;
+    left: 90vw;
+    width: 150px;
+    animation: helio 6s linear infinite forwards;
+}
+@keyframes helio {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-120vw, 30vh);
+    }
+}
+
+.bird{
+    position: relative;
+    bottom: 130vh;
+    width: 250px;
+    left: 95vw;
+    animation: bird2 10s linear infinite forwards;
+}
+
+@keyframes bird2 {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-110vw, -5vh);
+    }
+}
+.bird2{
+    position: relative;    
+    bottom: 130vh;
+    left: 95vw;
+    width: 150px;
+    animation: bird 7s linear infinite forwards;
+}
+@keyframes bird {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-120vw, -5vh);
+    }
+}
+.road{
+    position: relative;
+    width: 100vw;
+    height: 150px;
+    bottom: 6vw;
+}
+.road2{
+    position: relative;
+    width: 100vw;
+    height: 150px;
+    bottom: 7vw;
+}
+.path{
+    background-color: #000;
+    height: 80px;
+    position: relative;
+    bottom: 13vh;
+}
+.girl{
+    width: 150px;
+    position: relative;
+    bottom: 85vh;
+    right: 50vw;
+    animation: girl 5s linear infinite backwards;
+}
+@keyframes girl{
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(110vw, 0vh);
+    }
+}
+.man{
+    width: 150px;
+    position: relative;
+    bottom: 83vh;
+    left: 50vw;
+    animation: man 10s linear infinite backwards;
+}
+@keyframes man {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-110vw, 0vh);
+    }
+}
+.street-light{
+    height: 150px;
+    position: relative;
+    bottom: 64vh;
+    left: 20vw;
+    z-index: 1000;
+}
+.street-light1{
+    height: 150px;
+    position: relative;
+    bottom: 64vh;
+    right: 55vw;
+    z-index: 1000;
+}
+.street-light2{
+    height: 150px;
+    position: relative;
+    bottom: 64vh;
+    right: 25vw;
+    z-index: 1000;
+}
+.one-way{
+    position: relative;
+    bottom: 59vh;
+    z-index: 1000;
+}
+.one-way1{
+    position: relative;
+    bottom: 59vh;
+    left: 25vw;
+    z-index: 1000;
+}
+.one-way2{
+    position: relative;
+    bottom: 59vh;
+    left: 40vw;
+    z-index: 1000;
+}
+.sport{
+    position: relative;
+    bottom: 46vw;
+    width: 200px;
+    right: 25vw;
+    animation: sport 5s linear infinite backwards;
+}
+@keyframes sport {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(110vw, 8vh);
+    }
+}
+.truck{
+    position: relative;
+    bottom: 73vh;
+    right: 60vw;
+    animation: truck 7s linear infinite backwards;
+
+}
+@keyframes truck {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(120vw, 0vh);
+    }
+}
+.car{
+    position: relative;
+    bottom: 45vh;
+    left: 20vw;
+    animation: car 5s linear infinite forwards;
+
+}
+@keyframes car {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-110vw, 8vh);
+    }
+}
+.bicycle{
+    position: relative;
+    bottom: 88vh;
+    width: 100px;
+    right: 50vw;
+    animation: bicycle 5s linear infinite backwards;
+
+}
+@keyframes bicycle {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(110vw, 0vh);
+    }
+}
+.vesper{
+    position: relative;
+    bottom: 60vh;
+    left: 50vw;
+    animation: vesper 5s linear infinite backwards;
+
+}
+@keyframes vesper {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-110vw, 3vh);
+    }
+}
+.bus{
+    position: relative;
+    bottom: 65vh;
+    left: 70vw;
+    animation: bus 10s linear infinite backwards;
+
+}
+@keyframes bus {
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translate(-120vw, 0vh);
+    }
+}
